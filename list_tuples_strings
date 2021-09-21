@@ -1,0 +1,37 @@
+# 1.Program to show list comprehension
+#a
+l = ['hello', 'user',1]
+
+for x in l:
+    print(x ,end= " ")
+#b.
+ls = [i for i in range(50) if i%3==0]
+print (ls)
+
+# 2.Program to demonstrate Tuple
+tuple1= ("apple", "asd", 9 , True,"apple")
+tuple2= ("banana",) #To create tupele with one item , we need to comma(,) after item
+
+print(tuple1[0])
+print(tuple1)
+print(tuple2)
+ #tuple2.append("orange") #gives error as tuples are immutable
+#AttributeError: 'tuple' object has no attribute 'append'
+
+print(len(tuple1))
+print(type(tuple1))
+                                                                                                  
+# 3.Program to demonstrate String in Python                                                     #OUTPUT
+s="String in Python"
+print("in" in s)                                                                                #True
+
+if "django" not in s:
+    print("No, 'django' is NOT present")                                                    #No, 'django' is NOT present
+
+print(s[1:9])                                                                                   #tring in
+print(s[-8:-2]) #not included -2 index i.e. o in python                                         #n Pyth
+print(s[1:15:3]) #(s[1:15:3]) #1:15 between this index which 1:15:3 (3) next variable print     #tniPh
+
+print(s.upper())                                                                             #STRING IN PYTHON
+print(s.replace("in","to"))                                                                  #Strtog to Python
+print(s[::-1])                                                                               #nohtyP ni gnirtS
